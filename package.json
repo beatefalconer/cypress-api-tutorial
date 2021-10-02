@@ -1,0 +1,25 @@
+{
+  "name": "cypress-api-tutorial",
+  "version": "1.0.0",
+  "description": "https://dev.to/murillowelsi/api-testing-with-cypress-part-1-5coe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress: open": "./node_modules/.bin/cypress open",
+    "cypress: run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatefalconer/cypress-api-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatefalconer/cypress-api-tutorial/issues"
+  },
+  "homepage": "https://github.com/beatefalconer/cypress-api-tutorial#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
